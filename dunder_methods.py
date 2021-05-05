@@ -1,5 +1,8 @@
+# convention for 'private' properties
 # name
+# will mangle the name of this prop
 # __name
+# dunder method
 # __name__
 
 # dunder methods are special methods python looks for chen instnatiating an object from a class
