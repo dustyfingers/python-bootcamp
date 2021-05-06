@@ -5,8 +5,11 @@ class User:
         self.last = last
         self.age = age
 
-    pass
+    # this is a method
+    def full_name(self):
+        print(f"{self.first} {self.last}")
 
 
 user1 = User("Joe", "White", 42)
 user2 = User("Blanca", "Green", 22)
+user2.full_name()
